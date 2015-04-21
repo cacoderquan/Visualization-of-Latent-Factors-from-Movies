@@ -1,0 +1,10 @@
+The goal is to visualize and interpret a 2-dimensional latent features for
+movies of the given data-set. We are given the categorizations of about
+1600 movies into 19 genres, and ratings of some users to a specific movie.
+We applied matrix factorization to the sparse ratings matrix (since not all
+users are going to rate all movies) to look for latent factor matrices of the
+movies and users. Then we used the principal component analysis (PCA) to
+analyze the latent factor matrix of movies and projected each movie to the
+two strongest latent factors. Finally, we did visualization and interpretation
+on each category and compared the category average of the two major latent
+factors.
